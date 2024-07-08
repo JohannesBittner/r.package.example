@@ -1,4 +1,4 @@
-wo liegt der fehler? test_that("hello() works", {
+test_that("hello() works", {
   expect_output(hello(), "Hello, World!")
 })
 
